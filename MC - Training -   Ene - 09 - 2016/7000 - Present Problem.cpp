@@ -9,7 +9,7 @@ using namespace std;
 
 typedef pair <int, int> PII;
 typedef vector <priority_queue <PII, vector <PII>, greater <PII> > > Graph;
-int nodes, edges, dist;
+int nodes, edges;
 
 int solve(int source, Graph g) {
   PII ans(0, source);
